@@ -10,7 +10,7 @@ Style/Lambda:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
   Enabled: false
 Style/AsciiComments:
@@ -30,26 +30,26 @@ AllCops:
   TargetRubyVersion: 2.3
 Documentation:
   Enabled: false
-Style/PredicateName:
+Naming/PredicateName:
   NamePrefixBlacklist:
     - is_
 Style/Copyright:
  Enabled: false
 Lint/EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
 Style/RescueModifier:
   Enabled: false
 Metrics/AbcSize:
   Exclude:
     - 'db/migrate/*'
   Max: 40
-Style/AlignHash:
+Layout/AlignHash:
   EnforcedHashRocketStyle: key
   EnforcedColonStyle: key
-Style/AlignParameters:
+Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
-Style/CaseIndentation:
-  IndentWhenRelativeTo: case
+Layout/CaseIndentation:
+  EnforcedStyle: case
   IndentOneStep: false
 Rails:
   Enabled: true
